@@ -11,8 +11,13 @@ yum install wget -y
 tar -xvzf jdk-8u171-linux-x64.tar.gz
 
 
- wget http://www-us.apache.org/dist/maven/maven-3/3.5.3/binaries/apache-maven-3.5.3-bin.tar.gz
+wget http://www-us.apache.org/dist/maven/maven-3/3.5.3/binaries/apache-maven-3.5.3-bin.tar.gz
  tar -xvzf apache-maven-3.5.3-bin.tar.gz
 
-source vars
+wget http://www-us.apache.org/dist/tomcat/tomcat-8/v8.5.30/bin/apache-tomcat-8.5.30.tar.gz
+tar -xvf apache-tomcat-8.5.30.tar.gz
 
+
+cd apache-tomcat-8.5.30/bin
+
+sh startup.sh
