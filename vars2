@@ -1,0 +1,8 @@
+PATH=$PATH:$HOME/bin
+
+export PATH
+
+export PATH=$PATH:/opt/app/jdk1.8.0_171/bin
+
+export PATH=$PATH:/opt/apache-maven-3.5.3/bin
+
